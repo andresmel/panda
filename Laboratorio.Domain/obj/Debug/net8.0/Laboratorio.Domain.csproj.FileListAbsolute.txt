@@ -1,0 +1,11 @@
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.deps.json
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.dll
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.pdb
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.AssemblyInfoInputs.cache
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.AssemblyInfo.cs
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.dll
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\refint\Laboratorio.Domain.dll
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.pdb
+C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\ref\Laboratorio.Domain.dll
