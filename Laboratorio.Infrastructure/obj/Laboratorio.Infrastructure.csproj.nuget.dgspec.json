@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj": {}
+    "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\Laboratorio.Application.csproj": {
+    "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\Laboratorio.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\Laboratorio.Application.csproj",
+        "projectUniqueName": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\Laboratorio.Application.csproj",
         "projectName": "Laboratorio.Application",
-        "projectPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\Laboratorio.Application.csproj",
-        "packagesPath": "C:\\Users\\Programador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\obj\\",
+        "projectPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\Laboratorio.Application.csproj",
+        "packagesPath": "C:\\Users\\amelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Programador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\Laboratorio.Domain.csproj": {
-                "projectPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\Laboratorio.Domain.csproj"
+              "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\Laboratorio.Domain.csproj": {
+                "projectPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\Laboratorio.Domain.csproj"
               }
             }
           }
@@ -49,7 +49,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -70,6 +70,12 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -88,25 +94,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\Laboratorio.Domain.csproj": {
+    "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\Laboratorio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\Laboratorio.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\Laboratorio.Domain.csproj",
         "projectName": "Laboratorio.Domain",
-        "projectPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\Laboratorio.Domain.csproj",
-        "packagesPath": "C:\\Users\\Programador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Domain\\obj\\",
+        "projectPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\Laboratorio.Domain.csproj",
+        "packagesPath": "C:\\Users\\amelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Programador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -114,7 +120,7 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -133,11 +139,19 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -154,25 +168,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj": {
+    "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj",
         "projectName": "Laboratorio.Infrastructure",
-        "projectPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Programador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Infrastructure\\Laboratorio.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\amelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Programador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -180,15 +194,15 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\Laboratorio.Application.csproj": {
-                "projectPath": "C:\\Users\\Programador\\source\\repos\\Laboratorio\\Laboratorio.Application\\Laboratorio.Application.csproj"
+              "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\Laboratorio.Application.csproj": {
+                "projectPath": "C:\\Users\\amelo\\Desktop\\back\\laboratorio-col\\Laboratorio.Application\\Laboratorio.Application.csproj"
               }
             }
           }
@@ -203,7 +217,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -240,7 +254,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

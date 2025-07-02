@@ -9,6 +9,8 @@ namespace Laboratorio.Domain
 
         public int StreamerId { get; set; }
 
+        public int Duracion { get; set; }
+
         public virtual Streamer? Streamer { get; set; }
 
     }

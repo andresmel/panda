@@ -1,0 +1,99 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio working folder
+.vs/
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish outputs
+publish/
+artifacts/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# NuGet packages
+*.nupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# EF Core Migrations snapshots and designer files
+Migrations/*.Designer.cs
+Migrations/*Snapshot.cs
+
+# Azure Functions local settings
+local.settings.json
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# dotenv environment files
+.env
+.env.*
+
+# Node modules (if you have SPA/Blazor WASM in the same solution)
+node_modules/
+
+# Yarn
+.yarn/
+.pnp.*
+
+# SQLite and local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Coverage reports
+coverage/
+coverage-final.json
+lcov-report/
+
+# Application Insights config
+ApplicationInsights.config
+
+# Git conflict files
+*.orig
+
+# Windows image file caches
+Thumbs.db
+
+# macOS metadata files
+.DS_Store
+
+# Resharper and Rider caches
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# StyleCop report
+StyleCopReport.xml
+
+# Temporary files
+~$*
+*.tmp

@@ -9,3 +9,17 @@ C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.
 C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\refint\Laboratorio.Domain.dll
 C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.pdb
 C:\Users\Programador\source\repos\Laboratorio\Laboratorio.Domain\obj\Debug\net8.0\ref\Laboratorio.Domain.dll
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.deps.json
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.runtimeconfig.json
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.dll
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\bin\Debug\net8.0\Laboratorio.Domain.pdb
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.AssemblyInfoInputs.cache
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.AssemblyInfo.cs
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.csproj.CoreCompileInputs.cache
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.sourcelink.json
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.dll
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\refint\Laboratorio.Domain.dll
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.pdb
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\Laboratorio.Domain.genruntimeconfig.cache
+C:\Users\amelo\Desktop\back\laboratorio-col\Laboratorio.Domain\obj\Debug\net8.0\ref\Laboratorio.Domain.dll
