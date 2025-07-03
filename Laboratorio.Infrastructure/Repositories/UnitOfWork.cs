@@ -32,7 +32,8 @@ namespace Laboratorio.Infrastructure.Repositories
         {
             try
             {
-                return await _context.SaveChangesAsync();
+                var res=  _context.SaveChangesAsync().Result;
+                return res;
             }
             catch (Exception ex)
             {

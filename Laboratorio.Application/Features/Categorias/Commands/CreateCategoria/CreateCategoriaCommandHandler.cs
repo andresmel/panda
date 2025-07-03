@@ -24,7 +24,7 @@ namespace Laboratorio.Application.Features.Categorias.Commands.CreateCategoria
             var categoriaEntity = _mapper.Map<Categoria>(request);
 
             // Usar UnitOfWork de forma genérica
-            await _unitOfWork.Repository<Categoria>().AddAsync(categoriaEntity);
+            _unitOfWork.CategoriaRepository.AddEntity(categoriaEntity);
 
             var result = await _unitOfWork.Complete();
 
