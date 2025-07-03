@@ -1,99 +1,52 @@
 # Build results
 bin/
 obj/
-out/
 
 # User-specific files
-*.rsuser
-*.suo
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
 
-# Visual Studio working folder
+# VS y Rider
 .vs/
-
-# Visual Studio Code settings
-.vscode/
-
-# Rider
 .idea/
-*.sln.iml
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# Publish outputs
-publish/
-artifacts/
 
 # Logs
 *.log
 
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
 
-# NuGet packages
-*.nupkg
-.nuget/
-packages/
-project.lock.json
-project.fragment.lock.json
+# Dotnet secret manager
+secrets.json
 
-# EF Core Migrations snapshots and designer files
-Migrations/*.Designer.cs
-Migrations/*Snapshot.cs
+# ASP.NET files
+appsettings.Development.json
 
-# Azure Functions local settings
-local.settings.json
+# Migrations binaries
+Migrations/bin/
+Migrations/obj/
 
-# Test results
-TestResults/
-*.coverage
-*.coveragexml
+# Env files
+.env*
 
-# dotenv environment files
-.env
-.env.*
-
-# Node modules (if you have SPA/Blazor WASM in the same solution)
+# Node modules (si usas Blazor WASM o SPA)
 node_modules/
 
-# Yarn
-.yarn/
-.pnp.*
+# Coverage
+coverage/
+lcov-report/
 
-# SQLite and local database files
+# SQLite or local DB
 *.db
 *.sqlite
 *.sqlite3
 
-# Coverage reports
-coverage/
-coverage-final.json
-lcov-report/
-
-# Application Insights config
-ApplicationInsights.config
-
-# Git conflict files
+# Git conflict
 *.orig
 
-# Windows image file caches
-Thumbs.db
-
-# macOS metadata files
-.DS_Store
-
-# Resharper and Rider caches
-_ReSharper*/
-*.[Rr]e[Ss]harper
-*.DotSettings.user
-
-# StyleCop report
-StyleCopReport.xml
-
-# Temporary files
-~$*
+# Temporary
 *.tmp
+*.bak
