@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Laboratorio.Application.Features.Categorias.Commands.CreateCategoria;
+using Laboratorio.Application.Features.Director.Commands.CreateDirector;
 using Laboratorio.Application.Features.Streamers.Commands.CreateStreamer;
 using Laboratorio.Application.Features.Videos.Commands.CreateVideo;
 using Laboratorio.Domain;
@@ -22,6 +23,8 @@ namespace Laboratorio.Application.Mappings
             CreateMap<CreateCategoriaCommand, Categoria>();
 
             CreateMap<CreateVideoCommand, Video>();
+
+            CreateMap<CreateDirectorCommand, Director>();
                 
         }
     }

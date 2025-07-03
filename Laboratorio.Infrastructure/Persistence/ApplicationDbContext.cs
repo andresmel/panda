@@ -14,7 +14,7 @@ namespace Laboratorio.Infrastructure.Persistence
            
         }
            
-
+        public DbSet<Director>? Directors { get; set; }
         public DbSet<Streamer>? Streamers { get; set; }
         public DbSet<Video>? Videos { get; set; }
         public DbSet<Categoria>? Categorias { get; set; }

@@ -17,7 +17,7 @@ namespace Laboratorio.Infrastructure.Repositories
 
         public IVideoRepository VideoRepository => _videoRepository ??= new VideoRepository(_context);
 
-        public IStreamerRepository StreamerRepository => _streamerRepository ??= new StreamerRepository(_context);
+        public IStreamerRepository DirectorRepository => _streamerRepository ??= new StreamerRepository(_context);
 
         public ICategoriaRepository CategoriaRepository => _categoriaRepository ??= new CategoriaRepository(_context);
 

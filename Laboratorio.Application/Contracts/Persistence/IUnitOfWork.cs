@@ -5,7 +5,7 @@ namespace Laboratorio.Application.Contracts.Persistence
     public interface IUnitOfWork : IDisposable
     {
 
-        IStreamerRepository StreamerRepository { get; }
+        IStreamerRepository DirectorRepository { get; }
         IVideoRepository VideoRepository { get; }
         ICategoriaRepository CategoriaRepository { get; }
 
