@@ -12,7 +12,7 @@ namespace Laboratorio.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
 
-            services.AddDbContext<StreamerDbContext>(options =>
+            services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("ConnectionString"))
             );
 
@@ -21,6 +21,7 @@ namespace Laboratorio.Infrastructure
 
             services.AddScoped<IVideoRepository, VideoRepository>();
             services.AddScoped<IStreamerRepository, StreamerRepository>();
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 
             return services;
         }

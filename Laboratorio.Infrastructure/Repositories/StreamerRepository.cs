@@ -6,7 +6,7 @@ namespace Laboratorio.Infrastructure.Repositories
 {
     public class StreamerRepository : RepositoryBase<Streamer>, IStreamerRepository
     {
-        public StreamerRepository(StreamerDbContext context) : base(context)
+        public StreamerRepository(ApplicationDbContext context) : base(context)
         { }
     }
 }

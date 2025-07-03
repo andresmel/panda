@@ -7,7 +7,7 @@ namespace Laboratorio.Infrastructure.Repositories
 {
     public class VideoRepository : RepositoryBase<Video>, IVideoRepository
     {
-        public VideoRepository(StreamerDbContext context) : base(context)
+        public VideoRepository(ApplicationDbContext context) : base(context)
         {
         }
         public async Task<Video> GetVideoByNombre(string nombreVideo)

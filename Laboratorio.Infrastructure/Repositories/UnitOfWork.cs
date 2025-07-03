@@ -8,22 +8,25 @@ namespace Laboratorio.Infrastructure.Repositories
     public class UnitOfWork : IUnitOfWork
     {
         private Hashtable _repositories;
-        private readonly StreamerDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         private IVideoRepository _videoRepository;
         private IStreamerRepository _streamerRepository;
+        private ICategoriaRepository _categoriaRepository;
 
 
         public IVideoRepository VideoRepository => _videoRepository ??= new VideoRepository(_context);
 
         public IStreamerRepository StreamerRepository => _streamerRepository ??= new StreamerRepository(_context);
 
-        public UnitOfWork(StreamerDbContext context)
+        public ICategoriaRepository CategoriaRepository => _categoriaRepository ??= new CategoriaRepository(_context);
+
+        public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public StreamerDbContext StreamerDbContext => _context;
+        public ApplicationDbContext applicationDbContext => _context;
 
         public async Task<int> Complete()
         {

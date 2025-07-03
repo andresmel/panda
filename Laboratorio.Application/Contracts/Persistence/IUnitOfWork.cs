@@ -7,6 +7,7 @@ namespace Laboratorio.Application.Contracts.Persistence
 
         IStreamerRepository StreamerRepository { get; }
         IVideoRepository VideoRepository { get; }
+        ICategoriaRepository CategoriaRepository { get; }
 
         IAsyncRepository<TEntity> Repository<TEntity>() where TEntity : BaseDomainModel;
 

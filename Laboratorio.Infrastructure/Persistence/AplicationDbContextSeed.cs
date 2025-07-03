@@ -3,15 +3,15 @@ using Microsoft.Extensions.Logging;
 
 namespace Laboratorio.Infrastructure.Persistence
 {
-    public class StreamerDbContextSeed
+    public class AplicationDbContextSeed
     {
-        public static async Task SeedAsync(StreamerDbContext context, ILogger<StreamerDbContextSeed> logger)
+        public static async Task SeedAsync(ApplicationDbContext context, ILogger<AplicationDbContextSeed> logger)
         {
             if (!context.Streamers!.Any())
             {
                 context.Streamers!.AddRange(GetPreconfiguredStreamer());
                 await context.SaveChangesAsync();
-                logger.LogInformation("Estamos insertando nuevos records al db {context}", typeof(StreamerDbContext).Name);
+                logger.LogInformation("Estamos insertando nuevos records al db {context}", typeof(ApplicationDbContext).Name);
             }
 
         }

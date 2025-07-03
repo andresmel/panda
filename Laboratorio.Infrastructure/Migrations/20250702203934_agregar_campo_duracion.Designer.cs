@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Laboratorio.Infrastructure.Migrations
 {
-    [DbContext(typeof(StreamerDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250702203934_agregar_campo_duracion")]
     partial class agregar_campo_duracion
     {

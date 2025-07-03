@@ -11,7 +11,11 @@ namespace Laboratorio.Domain
 
         public int Duracion { get; set; }
 
+        public int CategoriaId { get; set; }
+
         public virtual Streamer? Streamer { get; set; }
+
+        public virtual Categoria? Categoria { get; set; }
 
     }
 }

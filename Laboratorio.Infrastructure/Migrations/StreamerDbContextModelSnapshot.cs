@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Laboratorio.Infrastructure.Migrations
 {
-    [DbContext(typeof(StreamerDbContext))]
+    [DbContext(typeof(ApplicationDbContext))]
     partial class StreamerDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -21,6 +21,28 @@ namespace Laboratorio.Infrastructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Laboratorio.Domain.Categoria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Descripcion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categorias");
+                });
 
             modelBuilder.Entity("Laboratorio.Domain.Streamer", b =>
                 {
@@ -52,10 +74,16 @@ namespace Laboratorio.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int?>("CategoriaId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("Duracion")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCategoria")
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
@@ -66,6 +94,8 @@ namespace Laboratorio.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoriaId");
+
                     b.HasIndex("StreamerId");
 
                     b.ToTable("Videos");
@@ -73,13 +103,24 @@ namespace Laboratorio.Infrastructure.Migrations
 
             modelBuilder.Entity("Laboratorio.Domain.Video", b =>
                 {
+                    b.HasOne("Laboratorio.Domain.Categoria", "Categoria")
+                        .WithMany("Videos")
+                        .HasForeignKey("CategoriaId");
+
                     b.HasOne("Laboratorio.Domain.Streamer", "Streamer")
                         .WithMany("Videos")
                         .HasForeignKey("StreamerId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.Navigation("Categoria");
+
                     b.Navigation("Streamer");
+                });
+
+            modelBuilder.Entity("Laboratorio.Domain.Categoria", b =>
+                {
+                    b.Navigation("Videos");
                 });
 
             modelBuilder.Entity("Laboratorio.Domain.Streamer", b =>

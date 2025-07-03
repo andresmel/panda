@@ -8,9 +8,9 @@ namespace Laboratorio.Infrastructure.Repositories
 {
     public class RepositoryBase<T> : IAsyncRepository<T> where T : BaseDomainModel
     {
-        protected readonly StreamerDbContext _context;
+        protected readonly ApplicationDbContext _context;
 
-        public RepositoryBase(StreamerDbContext context)
+        public RepositoryBase(ApplicationDbContext context)
         {
             _context = context;
         }
